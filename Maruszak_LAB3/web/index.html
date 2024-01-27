@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>NOTEBOOKS</title>
+</head>
+<body>
+    <h1>Wyszukiwanie danych</h1>
+    <p>Wypisz wszystkie:</p>
+    <form action="notebooks.jsp" method="post">
+        <input type="submit" value="Wyszukaj">
+    </form>
+    
+    <p>Wypisz po ID:</p>
+    <form action="notebooks_choosebyID.jsp" method="post">
+        ID autobusu <input type="text" name="id"><br>
+    <input type="submit" value="Wyszukaj">
+    </form>
+    
+    <p>Wypisz po danych:</p>
+    <form action="notebooks_choose.jsp" method="post">
+        Name: <input type="text" name="name"><br>
+        Manufacturer: <input type="text" name="manufacturer"><br>
+        Type: <input type="text" name="type"><br>
+        Material: <input type="text" name="material"><br>
+        Size: <input type="text" name="size"><br>
+        Gram: <input type="text" name="gram"><br>
+        Cover type: <input type="text" name="cover_type"><br>
+        Number pages: <input type="text" name="number_pages"><br>
+        Price PLN: <input type="text" name="price_pln"><br>
+        Has numbered pages: <input type="text" name="has_numbered_pages"><br>
+        <input type="submit" value="Wyszukaj">
+    </form>
+    <button onclick="window.location.href='index_logowanie.html'">Wyjdź</button>
+</body>
+</html>

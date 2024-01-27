@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notebooks>
+    <notebook id="1">
+        <name>Zeszyt1</name>
+        <manufacturer>Producent1</manufacturer>
+        <type>Typ1</type>
+        <material>Material1</material>
+        <size>A4</size>
+        <gram>120</gram>
+        <cover_type>miekka</cover_type>
+        <number_pages>64</number_pages>
+        <price_pln>2</price_pln>
+        <has_numbered_pages>false</has_numbered_pages>
+    </notebook>
+    <notebook id="2">
+        <name>Zeszyt2</name>
+        <manufacturer>Producent2</manufacturer>
+        <type>Typ2</type>
+        <material>Material1</material>
+        <size>A5</size>
+        <gram>100</gram>
+        <cover_type>miekka</cover_type>
+        <number_pages>64</number_pages>
+        <price_pln>1</price_pln>
+        <has_numbered_pages>false</has_numbered_pages>
+    </notebook>
+    <notebook id="3">
+        <name>Zeszyt3</name>
+        <manufacturer>Producent1</manufacturer>
+        <type>Typ3</type>
+        <material>Material1</material>
+        <size>A3</size>
+        <gram>160</gram>
+        <cover_type>twarda</cover_type>
+        <number_pages>80</number_pages>
+        <price_pln>5</price_pln>
+        <has_numbered_pages>true</has_numbered_pages>
+    </notebook>
+    <notebook id="4">
+        <name>Zeszyt4</name>
+        <manufacturer>Producent3</manufacturer>
+        <type>Typ3</type>
+        <material>Material1</material>
+        <size>A4</size>
+        <gram>120</gram>
+        <cover_type>miekka</cover_type>
+        <number_pages>64</number_pages>
+        <price_pln>2</price_pln>
+        <has_numbered_pages>false</has_numbered_pages>
+    </notebook>
+    <notebook id="5">
+        <name>Zeszyt5</name>
+        <manufacturer>Producent4</manufacturer>
+        <type>Typ3</type>
+        <material>Material1</material>
+        <size>A4</size>
+        <gram>200</gram>
+        <cover_type>miekka</cover_type>
+        <number_pages>100</number_pages>
+        <price_pln>3</price_pln>
+        <has_numbered_pages>false</has_numbered_pages>
+    </notebook>
+</notebooks>
